@@ -8,11 +8,15 @@
   margin-right:0;
   text-align:left;
 }
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
 #base {
   position:absolute;
   z-index:0;
 }
-#u231_img {
+#u232_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -20,20 +24,25 @@
   width:300px;
   height:170px;
 }
-#u231 {
+#u232 {
   border-width:0px;
   position:absolute;
   left:291px;
   top:279px;
   width:300px;
   height:170px;
+  display:flex;
 }
-#u231_text {
-  border-width:0px;
+#u232 .text {
   position:absolute;
-  left:0px;
-  top:0px;
-  width:0px;
-  visibility:hidden;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u232_text {
+  border-width:0px;
   word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
 }
